@@ -1,0 +1,147 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding : 0px;
+    background: url('bg1.jpg');
+}
+.left{
+    display: inline-block;
+  /*  border: 2px solid red;*/
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    font-style: italic;
+}
+.left img{
+    width: 136px;
+}
+.left div{
+    text-align: center;
+    color: #075855;
+}
+.mid{
+    display:  block;
+    width: 40%;
+    margin: 20px auto;
+    /*border: 2px solid green;*/
+    
+}
+.right{
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+   /* border: 2px solid yellow;*/
+}
+navbar{
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: #075855;
+    text-decoration: none;
+    padding: 34px 15px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(122, 36, 36);
+}
+.btn{
+    margin: 20px 10px 10px 45px;
+    background-color: #e07b37;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(31 ,30,30);
+}
+.bn{
+    margin: 0px 9px;
+    background-color: #34b3e5;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.bn:hover{
+    background-color: rgb(31 ,30,30);
+}
+.searchbar{
+    background-color: #34b3e5;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.container {
+    text-align: center;
+    /*border: 2px solid black;*/
+    margin: 90px 5px 40px 30px;
+    padding: 30px;
+    width: 15%;
+    border-radius: 28px;
+    display: inline-block;
+    position: absolute;
+    right: 0.1px;
+    top: 90px;
+    color: rgb(85, 65, 40);
+}
+.form-group input{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 7px auto;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.container button{
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+    width: 200px;
+}
+.websitename{
+    font-family: 'Times New Roman', Times, serif;
+    display:  block;
+    width: 40%;
+    margin: 2px auto;
+    /*border: 2px solid green;*/
+    top: 50px;
+    text-align: center;
+    color: #351b87;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.message{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display:  block;
+    width: 60%;
+    margin: 30px auto;
+    /*border: 2px solid green;*/
+    top: 200px;
+    text-align: center;
+    color: rgb(133, 51, 21);
+    font-size: 15px;
+    text-decoration: underline;
+    font-style:italic;
+}
